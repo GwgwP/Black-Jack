@@ -13,7 +13,7 @@ Deck::Deck()
 {
 	//initialize deck with:
 
-	/*//36 plain cards
+	//36 plain cards
 	for (PlainCard::Suits s = PlainCard::Suits::HEARTS; s <= PlainCard::Suits::DIAMONDS; s = static_cast<PlainCard::Suits>(static_cast<int>(s) + 1))
 		for (PlainCard::Ranks r = PlainCard::Ranks::TWO; r <= PlainCard::Ranks::TEN; r = static_cast<PlainCard::Ranks>(static_cast<int>(r) + 1))
 			deck.push_back(new PlainCard(s, r));
@@ -27,9 +27,8 @@ Deck::Deck()
 	//and 4 aces
 	for (AceCard::Suits s = AceCard::Suits::HEARTS; s <= AceCard::Suits::DIAMONDS; s = static_cast<AceCard::Suits>(static_cast<int>(s) + 1))
 		deck.push_back(new AceCard(s));
-	*/
-	for (AceCard::Suits s = AceCard::Suits::HEARTS; s <= AceCard::Suits::DIAMONDS; s = static_cast<AceCard::Suits>(static_cast<int>(s) + 1))
-		deck.push_back(new AceCard(s));
+
+	
 	//then shuffle all cards
 	shuffleCards();
 }
@@ -55,6 +54,7 @@ void Deck::draw() const
 void Deck::onClick()
 {
 	m_orientation += pow((-1), m_orientation > 0) * (rand0to1() * 10.0f);
+	
 	if (!m_enable)
 	{
 		graphics::playSound("assets/sounds/error.mp3", 0.3f);
@@ -73,7 +73,7 @@ void Deck::onClick()
 	}
 }
 
-Card* const Deck::getTopCard() const //to deytero
+Card* const Deck::getTopCard() const 
 {
 	if (!m_popped)
 	{
