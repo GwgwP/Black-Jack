@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Game.cpp
+C:\Users\Gogo\Desktop\C++Project2\Game\BlackJack\Game.cpp(184,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Gogo\Desktop\C++Project2\Game\BlackJack\Game.cpp(185,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Gogo\Desktop\C++Project2\Game\BlackJack\Game.cpp(488,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  1 of 843 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BlackJack.vcxproj -> C:\Users\Gogo\Desktop\C++Project2\Game\bin\BlackJack.exe
