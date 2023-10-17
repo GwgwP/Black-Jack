@@ -1,4 +1,5 @@
 # Black-Jack
+<<<<<<< HEAD
 ![Alt text](image.png)
 ## Description 📌
 Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C++ using the <a href="https://cgaueb.github.io/sgg/index.html">SGG (Simple Game Graphics)</a> Library. It is a 2 player game, played on a single computer.
@@ -70,3 +71,6 @@ Some noteworthy techniques used that are dependent on those attributes are:
 
 
 - to pws exoyme zografisei ta xartia kai glytwnoyme porous
+=======
+This is a repository for a  C++ game developed as part of the course.
+>>>>>>> 88cca5a84587a40125635face4e34a6a769078ad

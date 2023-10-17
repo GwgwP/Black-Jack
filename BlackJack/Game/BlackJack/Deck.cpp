@@ -27,10 +27,15 @@ Deck::Deck()
 	//and 4 aces
 	for (AceCard::Suits s = AceCard::Suits::HEARTS; s <= AceCard::Suits::DIAMONDS; s = static_cast<AceCard::Suits>(static_cast<int>(s) + 1))
 		deck.push_back(new AceCard(s));
+<<<<<<< HEAD
 	
 	for (AceCard::Suits s = AceCard::Suits::HEARTS; s <= AceCard::Suits::DIAMONDS; s = static_cast<AceCard::Suits>(static_cast<int>(s) + 1))
 		deck.push_back(new AceCard(s));
 
+=======
+
+	
+>>>>>>> 88cca5a84587a40125635face4e34a6a769078ad
 	//then shuffle all cards
 	shuffleCards();
 }
