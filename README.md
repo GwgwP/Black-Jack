@@ -61,8 +61,10 @@ Some noteworthy techniques used that are dependent on those attributes are:
 - <b>Image scale increase or reduction</b>: This is done by tuning the scale using the completion rate of the Event (elapsed time/ duration).
 - <b>Fading in or out</b>: This is achieved by tuning the opacity using the completion rate of the Event (elapsed time/ duration).
 
-💡 To manage these events, a list of event pointers is maintained. The list is refreshed every frame, updating events' elapsed time and removing inactive ones.
 ---
+
+<p> 💡 To manage these events, a list of event pointers is maintained. The list is refreshed every frame, updating events' elapsed time and removing inactive ones.</p>
+
 
 
 <i>Note:</i> The code has been checked for memory leaks. ✔️
