@@ -1,6 +1,6 @@
 # Black-Jack
-<<<<<<< HEAD
-![Alt text](image.png)
+![Alt text](image-1.png)
+
 ## Description 📌
 Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C++ using the <a href="https://cgaueb.github.io/sgg/index.html">SGG (Simple Game Graphics)</a> Library. It is a 2 player game, played on a single computer.
 
@@ -31,6 +31,7 @@ Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C
 3. Double click on the <i>BlackJack.exe</i> file.
 4. The game has started, wait until it loads, make it full screen and have fun!
 
+![Alt text](GOmess.png)
 
 ## Implementation Details 📜
 
@@ -39,11 +40,9 @@ Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C
 #### ● Structure
 The implementation follows an object oriented approach and highlights the good practises of inheritance and polymorphism, as it becomes evident below:
 
-EIKONA
 
-
-
-
+![Alt text](<e-r_d.drawio (2).png>)
+![Alt text](e-r_d.drawio.png)
 
 #### ● Animations
 All animations are implemented as subclasses of an Event superclass (Event.cpp, Event.h). The interesting part is that animations don't use any video or multiple pictures, but they are based on a rather mathematical approach. <br>
@@ -64,13 +63,8 @@ Some noteworthy techniques used that are dependent on those attributes are:
 - <b>Fading in or out</b>: This is achieved by tuning the opacity using the completion rate of the Event (elapsed time/ duration).
 
 💡 To manage these events, a list of event pointers is maintained. The list is refreshed every frame, updating events' elapsed time and removing inactive ones.
+---
 
 
 <i>Note:</i> The code has been checked for memory leaks. ✔️
-
-
-
-- to pws exoyme zografisei ta xartia kai glytwnoyme porous
-=======
-This is a repository for a  C++ game developed as part of the course.
->>>>>>> 88cca5a84587a40125635face4e34a6a769078ad
+![Alt text](Explosion1.png)
