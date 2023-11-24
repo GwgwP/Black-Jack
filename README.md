@@ -1,5 +1,5 @@
 # Black-Jack
-![Alt text](BlackJack\Game\bin\assets\loading.png)
+![Alt text](BlackJack/Game/bin/assets/loading.png)
 
 ## Description 📌
 Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C++ using the <a href="https://cgaueb.github.io/sgg/index.html">SGG (Simple Game Graphics)</a> Library. It is a 2 player game, played on a single computer.
@@ -31,7 +31,7 @@ Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C
 3. Double click on the <i>BlackJack.exe</i> file.
 4. The game has started, wait until it loads, make it full screen and have fun!
 
-![Alt text](BlackJack\Game\bin\assets\GOmess.png)
+![Alt text](BlackJack/Game/bin/assets/GOmess.png)
 
 ## Implementation Details 📜
 
@@ -66,4 +66,4 @@ Some noteworthy techniques used that are dependent on those attributes are:
 
 
 <i>Note:</i> The code has been checked for memory leaks. ✔️
-![Alt text](BlackJack\Game\bin\assets\Explosion1.png)
+![Alt text](BlackJack/Game/bin/assets/Explosion1.png)
