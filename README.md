@@ -16,9 +16,9 @@ Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C
 
 - Keep in mind that aces count as 11 or 1, according to what optimizes your hand! 
 
-- The player has 2" to take a look at their cards before they are faced down until their next turn. This is done so that the other player have not enough time to peek (as the game is played on a single machine).
+- You have 2" to take a look at their cards before they are faced down until their next turn. This is done so that the other player have not enough time to peek (as the game is played on a single machine).
 
-- Should you decide not to hit another card stand right after you drew a card or else you will have to hit again!
+- Should you decide not to hit another card, stand right after you drew a card or else you will have to hit again!
 
 - Round immediately ends if a player has <i>BlackJack</i> (fisrt 2 cards are ace & any card counting as 10) or their score is 21. Also if a player keeps hitting cards and exceeds the limit of 21, then round ends to the favor of the other player. Otherwise round ends when both players hit stand and the winner is the player with the greatest score.
 
@@ -35,7 +35,7 @@ Black-Jack-and-Jill is a variation of the classic Black Jack game developed in C
 
 ## Implementation Details 📜
 
-#### ● Main (draw, update)
+<!--#### ● Main (draw, update)-->
 
 #### ● Structure
 The implementation follows an object oriented approach and highlights the good practises of inheritance and polymorphism, as it becomes evident below:
@@ -68,4 +68,4 @@ Some noteworthy techniques used that are dependent on those attributes are:
 
 
 <i>Note:</i> The code has been checked for memory leaks. ✔️
-![Alt text](BlackJack/Game/bin/assets/Explosion1.png)
+<!--![Alt text](BlackJack/Game/bin/assets/Explosion1.png)-->
